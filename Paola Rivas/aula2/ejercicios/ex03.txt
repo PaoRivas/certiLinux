@@ -1,0 +1,10 @@
+cp)
+-u, --update: Copia solamente cuando el archivo origen es mas reciente que el archivo destino, o cuando no existe el archivo destino.
+
+mkdir)
+-v, --verbose: Imprime un mensaje por cada directorio creado 
+
+rm)
+-I: Pregunta una vez antes de eliminar mas de tres archivos o cuando elimina recursivamente, dando protección contra errores.
+
+

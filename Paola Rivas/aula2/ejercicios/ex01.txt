@@ -1,0 +1,14 @@
+a)
+ls: muestra en una lista todos los archivos dentro del directorio
+ls -m: muestra de forma seguida todos los archivos del directorio
+ls -l: lista todos los archivos con sus permisos y tamaños
+ls -l -v: lista todos los archivos ordenado de forma numérica ascendente
+c)
+ls ai[1-5].c: lista los archivos ai_.c donde en _ puede ir desde el 1 al 5
+ls [a-c]ii1.c: lista todos los archivos _ii1.c, donde _ puede ir desde la a hasta la c
+e)
+echo ai[1-5].c: muestra en pantalla los archivos ai_, donde en _ va desde 1 al 5
+ls [a-c]ii1.c: lista todos los archivos _ii1.c, donde en _ puede ir desde la a a la c
+ls *9.c: lista  todos los archivos que terminen con 9.c
+
+

@@ -1,0 +1,7 @@
+cp: copia un archivo a otro directorio
+rm: elimina un archivo
+mv: cambia el nombre de un archivo
+mkdir: crea un nuevo directorio
+rmdir: elimina un directorio
+touch: crea un nuevo archivo
+ls: lista de los archivos en el directotio en el que nos encontramos

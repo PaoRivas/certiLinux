@@ -1,0 +1,5 @@
+ls)
+-G, sin grupos: En un listado largo, no imprime los nombres de grupo
+-S: Ordena por tamaño de archivo, los mas grandes primero
+-t: Ordena por fecha de modificacion, los nuevos primero
+
