@@ -1,0 +1,15 @@
+./forever.sh
+Starting the Infinite Process
+^Z
+[7]+  Detenido                ./forever.sh
+
+bg
+[7]+ ./forever.sh &
+
+
+3689 pts/0    00:00:00 forever.sh
+
+kill 3689
+[7]   Terminado               ./forever.sh
+
+El proceso sigue ejecutandose.

@@ -1,0 +1,147 @@
+a) hostname
+
+paola-VirtualBox
+
+b) date
+
+vie feb 14 07:55:13 -04 2020
+
+c) which cp
+
+/usr/bin/cp
+
+d) 
+1. find .
+
+.
+./aula4
+./aula4/ex03.txt
+./aula4/salida.txt
+./aula4/ex02.txt
+./aula4/forever.sh
+./aula4/ex01.txt
+./aula4/salida.err
+./aula3
+./aula3/ejercicios
+./aula3/ejercicios/archivo.txt
+./aula3/ejercicios/ex02.txt
+./aula3/ejercicios/resultado.txt
+./aula3/ejercicios/ex01.txt
+
+2. find ./aula4 -maxdepth 1 -name *.sh
+
+./aula4/forever.sh
+
+3. find ./aula4 -name '*.txt' ! -name 'ex*'
+
+./aula4/salida.txt
+
+4. find ./aula4 -type f -name '*err'
+
+find ./aula4 -type f -name '*err'
+
+5. find ~ -type f -name ".*"
+
+/home/paola/.viminfo
+/home/paola/.ICEauthority
+/home/paola/.sudo_as_admin_successful
+/home/paola/.profile
+/home/paola/.mozilla/firefox/quwdnfij.default/.parentlock
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/about+home/.metadata-v2
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/about+home/.metadata
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/about+newtab/.metadata-v2
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/about+newtab/.metadata
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/https+++mail.google.com/.metadata-v2
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/https+++mail.google.com/.metadata
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/default/https+++mail.google.com/cache/.padding
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/permanent/chrome/.metadata-v2
+/home/paola/.mozilla/firefox/quwdnfij.default/storage/permanent/chrome/.metadata
+/home/paola/.bash_logout
+/home/paola/.bash_history
+/home/paola/.bashrc
+
+6. find . -type f -perm 0744
+
+find . -type f -perm 0744
+
+7. find . –user paola
+
+.
+./aula4
+./aula4/ex03.txt
+./aula4/salida.txt
+./aula4/ex02.txt
+./aula4/forever.sh
+./aula4/ex01.txt
+./aula4/salida.err
+./aula3
+./aula3/ejercicios
+./aula3/ejercicios/archivo.txt
+./aula3/ejercicios/ex02.txt
+./aula3/ejercicios/resultado.txt
+./aula3/ejercicios/ex01.txt
+find: ‘–user’: No existe el archivo o el directorio
+find: ‘paola’: No existe el archivo o el directorio
+
+8. find . –group adm
+
+.
+./aula4
+./aula4/ex03.txt
+./aula4/salida.txt
+./aula4/ex02.txt
+./aula4/forever.sh
+./aula4/ex01.txt
+./aula4/salida.err
+./aula3
+./aula3/ejercicios
+./aula3/ejercicios/archivo.txt
+./aula3/ejercicios/ex02.txt
+./aula3/ejercicios/resultado.txt
+./aula3/ejercicios/ex01.txt
+find: ‘–group’: No existe el archivo o el directorio
+find: ‘adm’: No existe el archivo o el directorio
+
+9. find / -mtime 5
+
+/sbin/ifquery
+/sbin/swapon
+/sbin/ifup
+/sbin/setvtrgb
+/sbin/fstrim
+/sbin/plymouthd
+/sbin/u-d-c-print-pci-ids
+/lib/udev/libinput-device-group
+/lib/udev/hdparm
+/lib/udev/ifupdown-hotplug
+/lib/udev/mtp-probe
+/lib/apparmor/functions
+
+10. find / -size 40M
+
+find: ‘/var/log/gdm3’: Permiso denegado
+find: ‘/var/log/speech-dispatcher’: Permiso denegado
+find: ‘/var/cache/apt/archives/partial’: Permiso denegado
+find: ‘/var/cache/cups’: Permiso denegado
+find: ‘/var/cache/ldconfig’: Permiso denegado
+find: ‘/etc/polkit-1/localauthority’: Permiso denegado
+find: ‘/etc/ssl/private’: Permiso denegado
+find: ‘/etc/cups/ssl’: Permiso denegado
+find: ‘/lost+found’: Permiso denegado
+find: ‘/sys/kernel/debug’: Permiso denegado
+find: ‘/sys/fs/pstore’: Permiso denegado
+
+e) find -name "*.txt"
+
+./aula4/ex03.txt
+./aula4/salida.txt
+./aula4/ex02.txt
+./aula4/ex01.txt
+./aula3/ejercicios/archivo.txt
+./aula3/ejercicios/ex02.txt
+./aula3/ejercicios/resultado.txt
+./aula3/ejercicios/ex01.txt
+
+f) find -type f -name "*so" -exec rm {} \;
+
+

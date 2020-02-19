@@ -1,0 +1,2 @@
+nohup: ignoring input
+./forever.sh: line 10:  8430 Killed                  sleep 60

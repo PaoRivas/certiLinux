@@ -1,0 +1,7 @@
+1) ls > archivo.txt
+2) sort < archivo.txt
+	archivo.txt
+	ex01.txt
+	ex02.txt
+3) sort < archivo.txt > resultado.txt
+

@@ -1,0 +1,26 @@
+1. a) ps -fu paola
+b) ps -fe
+c) firefox &
+[1] 3161
+d) kill 3161
+[1]+  Terminado               firefox
+
+2. a)gedit
+^Z
+[1]+  Detenido                gedit
+bg
+[1]+ gedit &
+
+b) gedit
+^Z[1]   Hecho                   gedit
+
+[2]+  Detenido                gedit
+fg
+gedit
+
+3) 880 paola     20   0 2949716 242964  93552 S  7,3 11,9   1:22.24 gnome-shell
+
+4) man top 
+
+5) Mate un firefox apretando k en el top y poniendo su PID.
+
